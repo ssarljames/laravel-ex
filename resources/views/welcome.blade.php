@@ -1,45 +1,83 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+<html lang="en">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<head>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+    <title>Coming Soon - Start Bootstrap Theme</title>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5 Project by @ssarljames</div>
+    <!-- Custom styles for this template -->
+    <link href="css/coming-soon.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="masthead">
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12 my-auto">
+                <div class="masthead-content text-white py-5 py-md-0">
+                    <h1 class="mb-3">Yo folks!</h1>
+                    <p class="mb-5">I'm <strong>Sarl James Sebios</strong> and I'm working hard to finish the development of this site. Our target launch date is
+                        <strong>January 2050</strong>! Sign up for updates using the form below!</p>
+                    <div class="input-group input-group-newsletter">
+                        <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">Notify Me!</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+</div>
+
+<div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+        <li class="list-unstyled-item">
+            <a href="https://twitter.com/ssarljames">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-unstyled-item">
+            <a href="https://www.facebook.com/ssarljames">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="list-unstyled-item">
+            <a href="https://www.instagram.com/ssarljames/">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/vide/jquery.vide.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/coming-soon.min.js"></script>
+
+</body>
+
 </html>
